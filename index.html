@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE - Premium Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>LUXE</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <span class="icon">🔍</span>
+                <span class="icon cart">🛍️<span class="cart-count">0</span></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="line">Elevate Your</span>
+                    <span class="line">Style with</span>
+                    <span class="line highlight">LUXE</span>
+                </h1>
+                <p class="hero-subtitle">Discover timeless elegance and contemporary fashion</p>
+                <button class="cta-button">Shop Collection</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <h3>New Arrivals</h3>
+                        <p>Spring 2024</p>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <h3>30% OFF</h3>
+                        <p>Limited Time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <h3>Women's Fashion</h3>
+                    <p>Explore Collection →</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <h3>Men's Fashion</h3>
+                    <p>Explore Collection →</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <h3>Accessories</h3>
+                    <p>Explore Collection →</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products" id="collections">
+        <div class="container">
+            <h2 class="section-title">Featured Collection</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge">New</div>
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Elegant Silk Dress</h3>
+                        <div class="product-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="product-price">$299.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge sale">Sale</div>
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Designer Leather Bag</h3>
+                        <div class="product-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="product-price">
+                            <span class="old-price">$450.00</span>
+                            $315.00
+                        </p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge">Hot</div>
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Sunglasses</h3>
+                        <div class="product-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="product-price">$189.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Casual Denim Jacket</h3>
+                        <div class="product-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="product-price">$159.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Banner -->
+    <section class="parallax-banner">
+        <div class="parallax-content">
+            <h2>Summer Collection 2024</h2>
+            <p>Experience the perfect blend of comfort and style</p>
+            <button class="cta-button">Discover More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>At LUXE, we believe fashion is more than just clothing—it's a form of self-expression. Since 2010, we've been crafting premium fashion pieces that blend timeless elegance with contemporary design.</p>
+                    <p>Our commitment to quality, sustainability, and innovation has made us a trusted name in the fashion industry. Every piece in our collection is carefully curated to ensure it meets our high standards.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="stat-number" data-target="15000">0</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number" data-target="500">0</h3>
+                            <p>Products</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number" data-target="50">0</h3>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-stack">
+                        <div class="stack-item"></div>
+                        <div class="stack-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay in Style</h2>
+                <p>Subscribe to our newsletter for exclusive offers and fashion updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>LUXE</h3>
+                    <p>Elevating your style with premium fashion since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📸</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>📧 info@luxefashion.com</li>
+                        <li>📞 +1 (555) 123-4567</li>
+                        <li>📍 123 Fashion Ave, NY 10001</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LUXE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
